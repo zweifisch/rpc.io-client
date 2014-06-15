@@ -1,11 +1,10 @@
-require 'socket.io-client/socket.io'
 calls = require('too-late')()
 
 genUuid = ->
-	'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace /[xy]/g, (c)->
-		r = Math.random() * 16 | 0
-		v = if c == 'x' then r else r & 0x3 | 0x8
-		v.toString 16
+    'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace /[xy]/g, (c)->
+        r = Math.random() * 16 | 0
+        v = if c == 'x' then r else r & 0x3 | 0x8
+        v.toString 16
 
 module.exports = (timeout, args...)->
     socket = io args...

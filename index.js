@@ -3,8 +3,6 @@
   var calls, genUuid,
     __slice = [].slice;
 
-  require('socket.io-client/socket.io');
-
   calls = require('too-late')();
 
   genUuid = function() {
