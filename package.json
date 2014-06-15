@@ -1,0 +1,27 @@
+{
+  "name": "rpc.io-client",
+  "version": "0.0.0",
+  "description": "rpc.io client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zf",
+  "license": "MIT",
+  "dependencies": {
+    "too-late": "0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zweifisch/rpc.io-client.git"
+  },
+  "keywords": [
+    "rpc",
+    "socket.io"
+  ],
+  "bugs": {
+    "url": "https://github.com/zweifisch/rpc.io-client/issues"
+  },
+  "homepage": "https://github.com/zweifisch/rpc.io-client"
+}
