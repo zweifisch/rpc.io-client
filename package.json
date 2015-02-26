@@ -1,6 +1,6 @@
 {
   "name": "rpc.io-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rpc.io client",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "zf",
   "license": "MIT",
   "dependencies": {
-    "too-late": "0.0.2"
+    "too-late": "0.1.1"
   },
   "devDependencies": {},
   "repository": {
